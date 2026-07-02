@@ -1,0 +1,24 @@
+.ex_container{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 10px;
+    object-fit: cover;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+.ex_container:hover{
+    background-color:orangered;
+    transform: scale(1.1 );
+}
+.ex_container{
+    justify-content: center;
+    text-align: center;
+
+}
